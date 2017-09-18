@@ -19,14 +19,14 @@ INSERT INTO books (id, title, year, series_id) VALUES
 (6, "The Lord of the Rings & The Return of the King", 1954, 2);
 
 INSERT INTO characters (id, name, species, motto, series_id, author_id) VALUES
-("Harry Potter", "human", "I'm a wizard.", 1, 1),
-("Ron Weasly", "human", "Am I a good wizard?", 1, 1),
-("Hermonie Granger", "human", "I'm smarter than you.", 1, 1),
-("Lord Voldermort", "human", "I want Hary Potter dead.", 1, 1),
-("Aragorn", "human", "Et Eärello Endorenna utúlien. Sinome maruvan ar Hildinyar tenn’ Ambar-metta!", 2, 2),
-("Legolas", "elf", "He stands not alone. You would die before your stroke fell.", 2, 2),
-("Gimli", "dwarf", "I name you Elf-friend; and may the stars shine upon the end of your road!", 2, 2),
-("Gandalf", "wizard", "Fly you fools!", 2, 2);
+(1, "Harry Potter", "human", "I'm a wizard.", 1, 1),
+(2, "Ron Weasly", "human", "Am I a good wizard?", 1, 1),
+(3, "Hermonie Granger", "human", "I'm smarter than you.", 1, 1),
+(4, "Lord Voldermort", "human", "I want Hary Potter dead.", 1, 1),
+(5, "Aragorn", "human", "Et Eärello Endorenna utúlien. Sinome maruvan ar Hildinyar tenn’ Ambar-metta!", 2, 2),
+(6, "Legolas", "elf", "He stands not alone. You would die before your stroke fell.", 2, 2),
+(7, "Gimli", "dwarf", "I name you Elf-friend; and may the stars shine upon the end of your road!", 2, 2),
+(8, "Gandalf", "wizard", "Fly you fools!", 2, 2);
 
 INSERT INTO character_books (id, book_id, character_id) VALUES
 (1, 1, 1),
