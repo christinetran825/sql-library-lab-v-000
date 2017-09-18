@@ -6,6 +6,10 @@ def select_name_and_motto_of_char_with_longest_motto
   "SELECT"
 end
 
+# it 'returns the name and motto of the character with the longest motto' do
+#   expect(@db.execute(select_name_and_motto_of_char_with_longest_motto)).to eq([["Tyrion Lannister", "A Lannister always pays his debts"]])
+# end
+
 
 def select_value_and_count_of_most_prolific_species
   "SELECT"
