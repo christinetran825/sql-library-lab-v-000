@@ -1,9 +1,9 @@
 --has many authors
 CREATE TABLE series (
   id INTEGER PRIMARY KEY,
-    title TEXT,
-    author_id INTEGER,
-    subgenre_id TEXT
+  title TEXT,
+  author_id INTEGER,
+  subgenre_id TEXT
 );
 
 CREATE TABLE subgenres (
@@ -38,5 +38,5 @@ CREATE TABLE characters (
 CREATE TABLE character_books (
   id INTEGER PRIMARY KEY,
     character_id INTEGER,
-    book_id TEXT 
+    book_id TEXT
 );
